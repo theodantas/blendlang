@@ -3,6 +3,7 @@ from flask import Flask, render_template, request, jsonify
 from nucleo.conexao_planilha import conectar_planilha, atualizar_vezes_usada
 from nucleo.carregar_frases import sortear_frase
 from nucleo.mistura import misturar_frase_com_dic
+import os
 
 app = Flask(__name__)
 
@@ -38,6 +39,6 @@ def gerar_frase():
         "resposta_correta": frase_pt
     })
 
-
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
