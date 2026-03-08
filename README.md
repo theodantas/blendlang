@@ -2,7 +2,7 @@
 
 ![Imagem do projeto finalizado](preview.gif)
 
-<h4 align="center"><a target="_blank" href="https://blendlang.onrender.com/">Confira o projeto aqui</a></h4>
+<h4 align="center"><a href="https://blendlang.onrender.com/">Confira o projeto aqui</a></h4>
 
 ---
 
