@@ -1,6 +1,6 @@
 <h1 align="center">Projeto BlendLang 🌎</h1>
 
-![Imagem do projeto finalizado](preview.png)
+![Imagem do projeto finalizado](preview.gif
 
 <h4 align="center"><a href="https://theodantas.github.io/quizes/">Confira o projeto aqui</a></h4>
 
@@ -52,6 +52,7 @@ Durante o desenvolvimento deste projeto foram aplicados diversos conceitos impor
 
 ## 📂 Estrutura do Projeto
 
+```
 blendlang/
 │
 ├── app.py
@@ -59,17 +60,17 @@ blendlang/
 ├── requirements.txt
 │
 ├── nucleo/
-│ ├── carregar_frases.py
-│ ├── conexao_planilha.py
-│ ├── dicionario.py
-│ └── mistura.py
+│   ├── carregar_frases.py
+│   ├── conexao_planilha.py
+│   ├── dicionario.py
+│   └── mistura.py
 │
 ├── templates/
-│ └── index.html
+│   └── index.html
 │
 └── static/
-  └── style.css
-
+    └── style.css
+```
 ---
 
 <table align="center">
