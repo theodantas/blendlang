@@ -1,0 +1,197 @@
+/* ===========================
+RESET GLOBAL
+=========================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===========================
+BODY
+=========================== */
+
+body {
+  background: radial-gradient(circle, #0F172A, #020617);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ===========================
+CONTAINER
+=========================== */
+
+.container {
+  background: #1E293B;
+  padding: 40px;
+  border-radius: 15px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  color: #F1F5F9;
+  margin: 1.5rem 0;
+}
+
+/* ===========================
+TÍTULO
+=========================== */
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* ===========================
+FORMULÁRIO
+=========================== */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ===========================
+INPUTS E SELECTS
+=========================== */
+
+select,
+input {
+  width: 100%;
+  padding: 12px 14px;
+  background-color: #2A3A52;
+  border: 1px solid #1E293B;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  color: #F1F5F9;
+}
+
+select:hover,
+input:hover {
+  background-color: #324563;
+}
+
+input:focus,
+select:focus {
+  background-color: #2A3A52;
+  border: 1px solid #0F172A;
+  box-shadow: 0 0 0 1px #0F172A;
+}
+
+/* Placeholder */
+
+input::placeholder {
+  color: #94A3B8;
+}
+
+/* ===========================
+SELECT 
+=========================== */
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='20' viewBox='0 0 20 20' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M5 7l5 5 5-5z'/></svg>");
+
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+}
+
+/* ===========================
+BOTÕES
+=========================== */
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #0F172A;
+  color: #F1F5F9;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  background: #2A3A52;
+}
+
+/* Estado loading */
+
+button.loading {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+/* Botão verificar */
+
+.btn-verificar {
+  background: #0F172A;
+}
+
+.btn-verificar:hover {
+  background: #2A3A52;
+}
+
+/* ===========================
+RESULTADO
+=========================== */
+
+#resultado {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ===========================
+FOOTER
+=========================== */
+
+#footer .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+#footer .col-a {
+  text-align: center;
+}
+
+#footer p {
+  font-size: 1rem;
+  color: #0F172A;
+}
+
+#footer .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+  list-style: none;
+  padding: 0;
+}
+
+#footer .social-links svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #0F172A;
+  transition: all 0.3s ease;
+}
+
+#footer .social-links a:hover svg {
+  fill: #2A3A52;
+  transform: translateY(-0.3rem);
+}
